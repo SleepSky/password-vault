@@ -1,0 +1,12 @@
+[programs.localnet]
+password_vault = "GCA4aqiUT57vPoc6seLrSLBXk9BRnp3Ptpqb6nbg19JH"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "cargo test"
